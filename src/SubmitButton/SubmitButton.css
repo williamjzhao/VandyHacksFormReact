@@ -1,0 +1,17 @@
+.btn-outline-secondary {
+  border: 1px solid black;
+  height: auto;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #777777;
+  color: whitesmoke;
+}
+
+.text-center {
+  margin: 30px;
+}
