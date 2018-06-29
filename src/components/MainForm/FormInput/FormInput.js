@@ -1,9 +1,10 @@
 import React from 'react';
+import './FormInput.css';
 
 const forminput = (props) => {
     return (
         <div className='form-group'>
-            <label htmlFor={props.name}>Enter your {props.input}</label>
+            <label className="labelStyle" htmlFor={props.name}>Enter your {props.input}</label>
             <input type={props.type} 
                 name={props.name} 
                 id={props.name} 

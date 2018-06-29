@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import TitleBar from '../TitleBar/TitleBar';
-import FormContainer from '../FormContainer/FormContainer';
-import FormInput from '../FormInput/FormInput';
-import SubmitButton from '../SubmitButton/SubmitButton';
+import TitleBar from './TitleBar/TitleBar';
+import FormContainer from './FormContainer/FormContainer';
+import FormInput from './FormInput/FormInput';
+import SubmitButton from './SubmitButton/SubmitButton';
 
 class MainForm extends Component {
   render() {
